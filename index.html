@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Karen Gertenbach: Hangman Game</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fugaz+One|Indie+Flower|Luckiest+Guy|Permanent+Marker" rel="stylesheet">
+</head>
+<!-- My Game -->
+<body>
+
+    <div class='container'>
+        <header>
+            <h1>Hangman Game</h1>
+            <h3>Basketball Edition</h3>
+        </header>
+
+        <div id="images" class="Basketball">
+                <img src="images/ref.jpg" />
+              </div>
+<br>
+    <div class='panel panel-default'>
+        <div class='panel-heading'>
+            <br>
+
+        </div>
+        <!-- Infinite Rotating Images Using jQuery (JavaScript) -->
+
+    <div class='panel-body'>
+            <h3>Phrase, Word or Name to Guess:</h3>
+       <br><br>
+        <h4 id='wordToGuess'>_ _ _ _ _ _</h4>
+    </div>
+    </div>
+    <div class='panel panel-default'>
+        <div class='panel-body'>
+            Wrong Guesses: <span id='wrongGuesses'></span>
+        </div>
+    </div>
+    <div class='panel panel-default'>
+        <div class='panel-body'>
+            Guesses Remaining: <span id='numGuesses'></span>
+        </div>
+    </div>
+    <div class='panel panel-defualt'>
+            <div class='panel-body'>
+                Win Counter: <span id="winCounter">0</span>
+            </div>
+        </div>  
+    <div class='panel panel-defualt'>
+        <div class='panel-body'>
+            Loss Counter: <span id="lossCounter">0</span>
+        </div>
+    </div>
+
+<!-- Footer     -->
+
+<script src="javascript/game.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+</body>
+</html> 

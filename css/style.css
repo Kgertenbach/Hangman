@@ -1,0 +1,42 @@
+
+  
+header {
+  border: 5px solid rgb(128, 58, 0);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 5% auto;
+  height: 80px;
+  width: 80%;
+  background: #ffffff
+
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Fugaz One', cursive;
+}
+
+#images {
+  margin-left: 30%;
+}
+
+body  {
+  clear: both;
+  font-size: 5%;
+  background: url("../images/purty_wood.png");
+}
+
+.panel-body {
+  background: url("../images/hip-square.png");
+  border: 3px solid black;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 25px;
+  height: 100px;
+  width: 80%;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
