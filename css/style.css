@@ -18,7 +18,8 @@ h3 {
 }
 
 #images {
-  margin-left: 30%;
+  position: static;
+  padding-left: 30%;
 }
 
 body  {
@@ -40,3 +41,22 @@ body  {
   font-family: 'Indie Flower', cursive;
   font-family: 'Permanent Marker', cursive;
 }
+@media screen and (max-width: 980px) {
+  
+#images {
+  
+  position: static;
+  padding-left: 25%;
+}}
+@media screen and (max-width: 768px)  {
+  
+#images {
+  position: static;
+  padding-left: 17%;
+}}
+@media screen and (max-width: 640px) {
+  
+#images {
+
+  padding-left: 12%;
+}}
