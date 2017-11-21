@@ -15,8 +15,9 @@ var rightGuessCounter = 0;
 
 // Pick Random Word on Reset
 function reset()
-for(var i = 0; i < numBlanks; i++)
+
 {
+  (var i = 0; i < numBlanks; i++)
 chosenWord = basketballTerms[Math.floor(Math.random() * basketballTerms.length)];
 lettersInWord = chosenWord.split('');
 numBlanks = lettersInWord.length;
