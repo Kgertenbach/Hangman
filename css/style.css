@@ -7,11 +7,15 @@ header {
   text-align: center;
   margin: 5% auto;
   height: 80px;
-  width: 80%;
+  width: 100%;
   background: #ffffff
 
 }
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
 h3 {
   font-size: 25px;
   font-family: 'Fugaz One', cursive;
@@ -19,7 +23,9 @@ h3 {
 
 #images {
   position: static;
-  padding-left: 30%;
+  padding-left: 230px;
+  width: 800px;
+  height: auto;
 }
 
 body  {
@@ -36,7 +42,7 @@ body  {
   margin: 10px auto;
   margin-top: 25px;
   height: 100px;
-  width: 80%;
+  width: 300px;
   font-family: 'Amatic SC', cursive;
   font-family: 'Indie Flower', cursive;
   font-family: 'Permanent Marker', cursive;
