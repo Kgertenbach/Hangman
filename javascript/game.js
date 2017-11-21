@@ -1,5 +1,5 @@
 // Variables needed
-var letterBank = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+var letterBank = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 var basketballTerms =['court vision','lebron james','michael jordan', 'kevin durant', 'steph curry', 'giannis antetokoumpo','coach k','jump ball', 'hack', 'motion defense', 'perimeter', 'pick and roll','intentional foul','technical foul', 'press','overhead pass','crossover','dead ball','crash the boards','fifteen footer','traveling','dunk','buzzer beater', 'fadeaway', 'fast break','box out','block out','controlling the boards','sixth man','and one','Backboard','Assist','Five Secod Violation', 'three second violation', 'backdoor cut', 'ball fake', 'backboard', ];
 var chosenWord = "";
 var lettersInWord = [];
@@ -20,7 +20,7 @@ chosenWord = basketballTerms[Math.floor(Math.random() * basketballTerms.length)]
 lettersInWord = chosenWord.split('');
 numBlanks = lettersInWord.length;
 
-var letterBank = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+var letterBank = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 underscore =[];
 wrongLetters = [];
 guessesLeft = 10;
@@ -39,7 +39,7 @@ lettersInWord = chosenWord.split('');
 numBlanks = lettersInWord.length;
 
 
-var letterBank = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+var letterBank = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 underscore =[];
 wrongLetters = [];
 guessesLeft = 10;
@@ -135,7 +135,6 @@ console.log('Letter Chosen is = ' + letterBank[i]);
 
 compareLetters(letterGuessed);
 winLose();
-reset();
 }
 }		
 
